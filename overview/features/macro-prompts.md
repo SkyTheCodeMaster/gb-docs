@@ -93,7 +93,7 @@ gcode:
 [gcode_macro SHOW_PROMT]
 gcode:
     RESPOND TYPE=command MSG="action:prompt_begin Question"
-    RESPOND TYPE=command MSG="action:prompt_text Do you wont to cancel the print?"
+    RESPOND TYPE=command MSG="action:prompt_text Do you want to cancel the print?"
     RESPOND TYPE=command MSG="action:prompt_footer_button continue|RESPOND TYPE=command MSG=action:prompt_end"
     RESPOND TYPE=command MSG="action:prompt_footer_button CANCEL|CANCEL_PRINT|error"
     RESPOND TYPE=command MSG="action:prompt_show"
